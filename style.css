@@ -1,0 +1,171 @@
+
+/* CONFIGURAÇÕES GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+/* MENU INICIAL */
+.menu, .cards-transform {
+    display: flex;
+    gap: 15px;
+}
+
+.card, .card-transform {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    flex: 1;
+    color: #333;
+    text-decoration: none;
+}
+
+/* TRANSFORMAÇÕES */
+.cards-transform {
+    margin: 20px 0;
+}
+
+.card-transform {
+    text-align: center;
+    transition: 0.3s;
+}
+
+.scale:hover {
+    transform: scale(1.1);
+}
+
+.rotate:hover {
+    transform: rotate(10deg);
+}
+
+.translate:hover {
+    transform: translateY(-10px);
+}
+
+/* LANDING PAGE */
+.banner {
+    background-color: #ddd;
+    padding: 25px;
+    transform: skew(-5deg);
+}
+
+.botao:hover {
+    transform: scale(1.1);
+}
+
+
+.card-landing:hover {
+    transform: translateY(-10px);
+}
+
+/* FORMULÁRIOS */
+form {
+    background-color: white;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.campo {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+/* TABELAS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+/* TELAS MENORES */
+@media (max-width: 600px) {
+    .menu, .cards-transform {
+        flex-direction: column;
+    }
+}
+/* LINK PARA VOLTAR */
+.voltar {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.voltar:hover {
+    background-color: #222;
+}
+/* ROTAÇÃO DOS ÍCONES */
+.icone {
+    display: inline-block;
+}
+
+.icone:hover {
+    transform: rotate(15deg);
+}
+
+/* EXERCÍCIO  - ROTAÇÃO DE 90 GRAUS */
+.exemplo-rotacao {
+    margin: 30px 0;
+}
+
+.rotacao-90 {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #ddd;
+    transition: 0.3s;
+}
+
+.rotacao-90:hover {
+    transform: rotate(90deg);
+}
