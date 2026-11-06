@@ -4,16 +4,6 @@
 
 ## Exercício 1
 
-1. Qual propriedade está sendo utilizada?
-
- transform.
-
-2. Qual transformação será aplicada?
-
- Rotação de 90 graus.
-
-## Exercício 2
-
 - scale(): aumenta  o tamanho.
 - rotate(): gira o elemento.
 - translateY(): movimenta o elemento verticalmente.
@@ -48,7 +38,7 @@ equilibrado
 
 Se eu fosse um cliente da empresa, conseguiria preencher este formulário facilmente?
 
-Resposta: sim o campo está de um jeito simples de ser prenchido com uma interface não com muitas informação bem simples
+ sim o campo está de um jeito simples de ser prenchido com uma interface não com muitas informação bem simples
 
 ---
 
